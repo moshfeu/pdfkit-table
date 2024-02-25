@@ -613,7 +613,7 @@ class PDFDocumentWithTables extends PDFDocument {
 
                 // add background
                 this.addBackground(rectCell, headerColor, headerOpacity);
-    
+                prepareRow(null, i, 0, null, rectCell,);
                 // cell padding
                 cellPadding = prepareCellPadding(padding || options.padding || 0);
     
